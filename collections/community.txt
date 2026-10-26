@@ -30,7 +30,7 @@ This collection is open to any author whose mod plugs into the Manager window.
 [olist]
 [*]Build on Manager UI using [url=https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/blob/main/INTEGRATION.md]INTEGRATION.md[/url]. It covers every hub message and includes a complete example.
 [*]Publish your mod with Manager UI listed as a required item.
-[*]Ask for it to be added with the [url=https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/issues/new?template=integration.yml]integration form[/url], with a link to the Workshop page.
+[*]Ask for it to be added with the [url=https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/issues/new?template=collection.yml]collection request form[/url]. The same form takes a mod out again.
 [/olist]
 
 [h2]Help and bug reports[/h2]

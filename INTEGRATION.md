@@ -126,3 +126,5 @@ public class MyModBehaviour : ModBehaviour
 - The bus is current-game only: Manager UI clears it on every scene load, so publish again after a load.
 - Pick a page name that is unlikely to clash with another mod; two mods with the same name replace each other.
 - Questions, or a message you need added: [open an integration question](https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/issues/new?template=integration.yml).
+- Once your mod is on the Workshop, [ask for it to be added to the Community Manager Series](https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/issues/new?template=collection.yml).
+  The same form takes it out again.

@@ -24,7 +24,8 @@ is about, so it reaches the right place.
 
 - [Manager Series by Tashus](https://steamcommunity.com/workshop/filedetails/?id=3737515068): every mod in this suite.
 - [Community Manager Series](https://steamcommunity.com/sharedfiles/filedetails/?id=3784903829): this suite plus
-  managers by other authors that work alongside it.
+  managers by other authors that work alongside it. Mod authors can ask to be added or removed with the
+  [collection request form](https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/issues/new?template=collection.yml).
 
 ## Pages
 

@@ -1,0 +1,62 @@
+name: Community Manager Series request (mod authors)
+description: Ask for your mod to be added to, or removed from, the Community Manager Series collection.
+title: "[Collection] "
+labels: [collection]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The [Community Manager Series](https://steamcommunity.com/sharedfiles/filedetails/?id=3784903829) collects managers by any author that add a page to the Manager window. To be added, a mod has to:
+        - Register at least one page or Manage Team tab with Manager UI (see [INTEGRATION.md](https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/blob/main/INTEGRATION.md)).
+        - Be published on the Workshop with Manager UI listed as a required item.
+        - Be public, so everyone who subscribes to the collection can get it.
+
+        Only the mod's author can ask for it to be added or removed. Questions about the hub itself go in an integration question instead.
+  - type: dropdown
+    id: request
+    attributes:
+      label: Request
+      options:
+        - Add my mod
+        - Remove my mod
+    validations:
+      required: true
+  - type: input
+    id: mod_name
+    attributes:
+      label: Mod name
+      description: As it appears on the Workshop.
+    validations:
+      required: true
+  - type: input
+    id: workshop_link
+    attributes:
+      label: Workshop link
+      placeholder: https://steamcommunity.com/sharedfiles/filedetails/?id=
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Your Steam name
+      description: Must match the author shown on the Workshop page.
+    validations:
+      required: true
+  - type: textarea
+    id: what_it_does
+    attributes:
+      label: What it does
+      description: One or two sentences. For an add, this becomes the mod's line in the collection description, so write it the way you want players to read it.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: For example a reason for removal, or a mod this one replaces.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: I am the author of this mod.
+          required: true
+        - label: For an add, the mod registers with Manager UI and lists it as a required item.
