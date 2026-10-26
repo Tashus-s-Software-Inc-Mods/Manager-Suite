@@ -20,7 +20,11 @@ is about, so it reaches the right place.
 | **Team Schedule Manager** | Cuts an idle team's work day and restores it when work arrives; can crunch a team near a deadline. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3767459405) |
 | **Furnish Manager** | Keeps rooms stocked with the fixtures and furniture they need. | Not on the Workshop yet |
 
-The whole set is also in the [Manager Collection](https://steamcommunity.com/workshop/filedetails/?id=3737515068).
+## Collections
+
+- [Manager Collection](https://steamcommunity.com/workshop/filedetails/?id=3737515068): every mod in this suite.
+- [Community Manager Series](https://steamcommunity.com/sharedfiles/filedetails/?id=3784903829): this suite plus
+  managers by other authors that work alongside it.
 
 ## Pages
 
