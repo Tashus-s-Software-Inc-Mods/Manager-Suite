@@ -38,3 +38,9 @@ is about, so it reaches the right place.
 
 The mod source ships with each Workshop item, as Software Inc compiles code mods from source when it loads them.
 The development repositories are private; this repository holds the documentation and the issue tracker.
+
+## Licence
+
+The mods and these documents are all rights reserved: you may read the code and learn from it, but copying or
+republishing it needs permission. [INTEGRATION.md](INTEGRATION.md) and its example code are MIT, so you can copy
+the example into your own mod. Full terms: [LICENSE.md](LICENSE.md).

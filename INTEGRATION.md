@@ -128,3 +128,8 @@ public class MyModBehaviour : ModBehaviour
 - Questions, or a message you need added: [open an integration question](https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/issues/new?template=integration.yml).
 - Once your mod is on the Workshop, [ask for it to be added to the Community Manager Series](https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/issues/new?template=collection.yml).
   The same form takes it out again.
+
+## Licence
+
+This document and its example code are under the MIT licence ([LICENSE.md](LICENSE.md)). Copy the example into
+your mod freely. Your mod stays yours.
