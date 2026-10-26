@@ -1,0 +1,20 @@
+name: Integration question (mod authors)
+description: Using Manager UI from your own mod, or asking for a hub message.
+labels: [integration]
+body:
+  - type: markdown
+    attributes:
+      value: Read [INTEGRATION.md](https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/blob/main/INTEGRATION.md) first; it lists every message and has a complete example.
+  - type: input
+    id: your_mod
+    attributes:
+      label: Your mod
+      description: Name, and a Workshop link if it is published.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or request
+    validations:
+      required: true

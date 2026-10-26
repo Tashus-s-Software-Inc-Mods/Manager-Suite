@@ -1,0 +1,57 @@
+name: Bug report
+description: A manager did something wrong, did nothing, or the game showed an error.
+labels: [bug]
+body:
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Which mod?
+      description: If more than one is involved, pick the one you were using and name the others below.
+      options:
+        - Manager UI
+        - Contract Manager
+        - Deal Manager
+        - Leader Manager
+        - Research Manager
+        - Investment Manager
+        - Team Schedule Manager
+        - Furnish Manager
+        - Not sure which mod
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How to make it happen again, if you know.
+      placeholder: |
+        1. Set Deal Manager to take Support deals on team "Support A"
+        2. Advance a month
+        3. ...
+  - type: input
+    id: game_version
+    attributes:
+      label: Game version
+      description: Shown on the game's main menu, for example Beta 1.8.2.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: >-
+        If there was an error, attach output_log.txt from the game's install folder (drag the file here) or paste
+        the lines around the error. See https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/blob/main/docs/Reporting-Bugs.md
+      render: text
+  - type: textarea
+    id: other
+    attributes:
+      label: Other mods
+      description: Any other code mods you have installed, if you think they matter.

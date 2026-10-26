@@ -1,0 +1,29 @@
+# Adds a "mod: <name>" label from the "Which mod?" answer in the bug and feature forms.
+name: Label issue by mod
+on:
+  issues:
+    types: [opened, edited]
+permissions:
+  issues: write
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+            const m = body.match(/### Which mod\?\s*\n+([^\n]+)/);
+            if (!m) return;
+            const mod = m[1].trim();
+            if (!mod || mod === '_No response_' || mod === 'Not sure which mod') return;
+            const name = 'mod: ' + mod;
+            const { owner, repo } = context.repo;
+            const number = context.payload.issue.number;
+            const current = context.payload.issue.labels.map(l => l.name);
+            for (const old of current.filter(n => n.startsWith('mod: ') && n !== name)) {
+              await github.rest.issues.removeLabel({ owner, repo, issue_number: number, name: old });
+            }
+            if (!current.includes(name)) {
+              await github.rest.issues.addLabels({ owner, repo, issue_number: number, labels: [name] });
+            }
