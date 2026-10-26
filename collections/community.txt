@@ -1,0 +1,39 @@
+[img]https://raw.githubusercontent.com/Tashus-s-Software-Inc-Mods/Manager-Suite/main/assets/banner-community.png[/img]
+
+Management mods for Software Inc. by more than one author. Every mod here adds a page to the same Manager window, so their settings sit side by side instead of each adding its own button and window. The window comes from Manager UI, which every mod in this collection requires.
+
+[h2]Before you subscribe[/h2]
+[list]
+[*][b]Manager UI is required.[/b] Subscribe to all includes it. If you pick mods one by one, add Manager UI as well.
+[*]Every other mod is optional and works on its own alongside Manager UI.
+[*]Open the window with the [b]Manager[/b] cog in the Mods group of the bottom bar, or press [b]Ctrl+Shift+M[/b]. Each installed mod has its own page there.
+[*]Each mod is made and maintained by its own author. Report problems on that mod's page or wherever its author asks.
+[/list]
+
+[h2]The mods[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739704295][b]Manager UI[/b][/url] by Tashus: the shared Manager window, with a page per installed mod, an Overview and an Activity log. Required.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737490722][b]Contract Manager[/b][/url] by Tashus: accepts software contracts that match your rules and runs them from design to delivery.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737533696][b]Deal Manager[/b][/url] by Tashus: accepts and runs Design, Development, Support, Marketing, Print and Hosting deals that match your rules.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3753725169][b]Education Manager[/b][/url] by Yautja: sends team members to education based on the skills you configure for each team.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3753107571][b]Hiring Manager[/b][/url] by Yautja: hires staff for each team toward hiring targets you define.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739986889][b]Investment Manager[/b][/url] by Tashus: invests spare cash in shares of strong companies and manages the positions.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737789185][b]Leader Manager[/b][/url] by Tashus: keeps chosen teams staffed with a leader built to your recipe and replaces leaders before they retire.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3740631068][b]Research Manager[/b][/url] by Tashus: researches the year's tech on the specializations you choose and files the patents.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3767459405][b]Team Schedule Manager[/b][/url] by Tashus: shortens an idle team's work day and restores it when real work arrives.
+[/list]
+
+Tashus's managers start switched off each time a game loads. Turn them on in the Manager window.
+
+[h2]Add your mod[/h2]
+This collection is open to any author whose mod plugs into the Manager window.
+[olist]
+[*]Build on Manager UI using [url=https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/blob/main/INTEGRATION.md]INTEGRATION.md[/url]. It covers every hub message and includes a complete example.
+[*]Publish your mod with Manager UI listed as a required item.
+[*]Ask for it to be added with the [url=https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/issues/new?template=integration.yml]integration form[/url], with a link to the Workshop page.
+[/olist]
+
+[h2]Help and bug reports[/h2]
+For Tashus's mods, guides, troubleshooting and the bug tracker are in the [url=https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite]Manager-Suite repository[/url]. For other authors' mods, use that mod's Workshop page.
+
+Only Tashus's own managers: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737515068]Manager Series by Tashus[/url].

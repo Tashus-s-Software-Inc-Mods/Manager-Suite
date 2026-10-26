@@ -1,0 +1,30 @@
+[img]https://raw.githubusercontent.com/Tashus-s-Software-Inc-Mods/Manager-Suite/main/assets/banner-series.png[/img]
+
+Six automation mods for Software Inc. by Tashus, plus Manager UI, the shared window they all use. Each mod takes over one routine job and runs it by rules you set: contracts, deals, team leaders, research and patents, idle team hours, and spare cash.
+
+[h2]How it fits together[/h2]
+[list]
+[*][b]Manager UI is the only required item.[/b] Every other mod here needs it. Subscribe to all, or pick the managers you want and keep Manager UI.
+[*]Open the Manager window with the [b]Manager[/b] cog in the Mods group of the bottom bar, or press [b]Ctrl+Shift+M[/b]. Each installed manager has its own page.
+[*]Every manager starts switched off each time a game loads. Turn on the ones you want in the Manager window, or use [b]Turn on all managers[/b] on the Overview page.
+[*]The Activity page lists every action the managers take, newest first.
+[/list]
+
+[h2]The mods[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739704295][b]Manager UI[/b][/url]: one Manager window with a page per installed mod, an Overview of what each is doing, and an Activity log. Required.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737490722][b]Contract Manager[/b][/url]: accepts software contracts that match your rules, assigns them to your teams and runs them from design to delivery.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737533696][b]Deal Manager[/b][/url]: accepts Design, Development, Support, Marketing, Print and Hosting deals that match your rules and runs them on the teams you assign.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737789185][b]Leader Manager[/b][/url]: keeps the teams you choose staffed with a leader built to your recipe (HR 3 by default) and lines up a replacement before the current one retires.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3740631068][b]Research Manager[/b][/url]: starts each year's research on the specializations you choose, then files and registers the patents.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3767459405][b]Team Schedule Manager[/b][/url]: cuts an idle team's work day to a minimum so it costs less, and restores its hours when real work arrives.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739986889][b]Investment Manager[/b][/url]: puts spare cash into shares of strong companies, holds them, and sells when one turns sour or has gained enough.
+[/list]
+
+[h2]Managers by other authors[/h2]
+Other modders have built managers that add pages to the same window. The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3784903829]Community Manager Series[/url] collects them together with these.
+
+[h2]Help and bug reports[/h2]
+Guides, troubleshooting and the bug tracker are in the [url=https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite]Manager-Suite repository[/url]. The issue form asks which mod the report is about.
+
+To add your own mod to the Manager window, see [url=https://github.com/Tashus-s-Software-Inc-Mods/Manager-Suite/blob/main/INTEGRATION.md]INTEGRATION.md[/url].

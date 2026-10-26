@@ -22,7 +22,7 @@ is about, so it reaches the right place.
 
 ## Collections
 
-- [Manager Collection](https://steamcommunity.com/workshop/filedetails/?id=3737515068): every mod in this suite.
+- [Manager Series by Tashus](https://steamcommunity.com/workshop/filedetails/?id=3737515068): every mod in this suite.
 - [Community Manager Series](https://steamcommunity.com/sharedfiles/filedetails/?id=3784903829): this suite plus
   managers by other authors that work alongside it.
 
