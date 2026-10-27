@@ -24,7 +24,7 @@ this one degrades quietly on an older Manager UI (the extra arguments are ignore
 
 | Message | Payload | What it does |
 |---|---|---|
-| `RegisterPanel` | `{ string name, Action<GameObject> build [, Action<string,string> onRename, Action<bool> setMaster, Action<int> selectTab] }` | A page in the Manager window. `build` draws into the GameObject it is given (a scroll content, top-left origin). Registering again with the same name replaces the entry. |
+| `RegisterPanel` | `{ string name, Action<GameObject> build [, Action<string,string> onRename, Action<bool> setMaster, Action<int> selectTab, Action<string,string> onServerRename] }` | A page in the Manager window. `build` draws into the GameObject it is given (a scroll content, top-left origin). Registering again with the same name replaces the entry. |
 | `RegisterTeamPanel` | `{ string name, Action<GameObject,string> build }` | A tab in the Manage Team window; `build` gets the team name. |
 | `PublishShared` | `{ string key, string[] values }` | Puts values on the shared bus. Publishing an empty array removes the key. Cleared on every scene load. |
 | `GetShared` | `{ string key, List<string> outValues }` | Reads a bus key. |
@@ -38,6 +38,8 @@ this one degrades quietly on an older Manager UI (the extra arguments are ignore
 | `DeleteProfile` | `{ string modKey, string name }` | Removes a preset. |
 
 `onRename(oldName, newName)` is called when the player renames a team, so a mod that stores team names can follow.
+`onServerRename(oldName, newName)` does the same for a server group. Pass `null` for any optional delegate before it
+that you do not use. Older Manager UI versions ignore it.
 
 ## The shell header (optional)
 
