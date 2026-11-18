@@ -24,7 +24,7 @@ this one degrades quietly on an older Manager UI (the extra arguments are ignore
 
 | Message | Payload | What it does |
 |---|---|---|
-| `RegisterPanel` | `{ string name, Action<GameObject> build [, Action<string,string> onRename, Action<bool> setMaster, Action<int> selectTab, Action<string,string> onServerRename] }` | A page in the Manager window. `build` draws into the GameObject it is given (a scroll content, top-left origin). Registering again with the same name replaces the entry. |
+| `RegisterPanel` | `{ string name, Action<GameObject> build [, Action<string,string> onRename, Action<bool> setMaster, Action<int> selectTab, Action<string,string> onServerRename, Action resetRecommended, string resetNote] }` | A page in the Manager window. `build` draws into the GameObject it is given (a scroll content, top-left origin). Registering again with the same name replaces the entry. |
 | `RegisterTeamPanel` | `{ string name, Action<GameObject,string> build }` | A tab in the Manage Team window; `build` gets the team name. |
 | `PublishShared` | `{ string key, string[] values }` | Puts values on the shared bus. Publishing an empty array removes the key. Cleared on every scene load. |
 | `GetShared` | `{ string key, List<string> outValues }` | Reads a bus key. |
@@ -57,6 +57,12 @@ Without anything below, your page shows its name above whatever you draw. Add an
 - **Tabs.** Pass `selectTab` (an `Action<int>`) at index 4 and publish `"MUI.Tabs.<your page name>"` as the tab
   names, a name starting with `~` drawn faded (that area is switched off). The shell calls `selectTab` with the
   chosen tab before every `build`, so `build` draws only that tab. The choice is remembered for the session.
+- **Reset to recommended.** Pass `resetRecommended` (an `Action`) at index 6 and, optionally, `resetNote` (a
+  `string`) at index 7. The header shows a "Reset to recommended..." button left of the switch. It asks first
+  ("Reset <your page name> to recommended? <resetNote> This cannot be undone."), then calls your action and
+  redraws your page. Put back only tuning (sliders, limits, filters, modes) and save it; leave anything that turns
+  a feature on or lets the mod spend as the player set it. Say in `resetNote` what goes back and what stays, and
+  name any money limit it moves. Older Manager UI versions ignore both.
 - **Team summary.** Publish `"MUI.TeamSummary.<your team tab name>"` as `"team name|one line"` entries; the
   Manage Team window shows your line for that team above the tabs.
 
