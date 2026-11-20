@@ -8,6 +8,12 @@
 - **Game version.** Shown on the game's main menu.
 - **The log**, if there was an error.
 
+## A room Furnish Manager furnished badly
+
+Pick **Furnish Manager layout** instead. It asks for two screenshots of the same room from the same angle: what
+Furnish Manager placed, and the room after you fixed it by hand. Say what you changed and why. A blueprint of the
+building is optional, but it lets us rebuild the room exactly.
+
 ## Where the log is
 
 Software Inc writes `output_log.txt` in its install folder. For a default Steam install that is:

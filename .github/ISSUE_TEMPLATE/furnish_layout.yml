@@ -1,0 +1,75 @@
+name: Furnish Manager layout
+description: Furnish Manager furnished a room badly. Show what it placed and how you fixed it by hand.
+title: "[Furnish layout] "
+labels: [bug, "mod: Furnish Manager"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Two screenshots of the same room show most of what we need: one of what Furnish Manager placed, and one after you fixed it by hand. Take both from the same camera angle with the whole room in view. Steam's screenshot key (F12 by default) works. Drag each image into its box below.
+
+        For an error, or a setting that does nothing, use the Bug report form instead.
+  - type: dropdown
+    id: room
+    attributes:
+      label: Room type
+      description: The room type set for this room in Furnish Manager.
+      options:
+        - Office
+        - Meeting room
+        - Canteen
+        - Print room
+        - Kitchen
+        - Bathroom
+        - Security office
+        - IT room
+        - Break room
+        - Hallway
+        - Reception
+        - Server room
+        - Plant room
+        - Shower room
+        - Washroom
+        - Manufacturing
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: before
+    attributes:
+      label: What Furnish Manager placed
+      description: A screenshot of the room right after Furnish Manager furnished it, before you changed anything.
+      placeholder: Drag the screenshot here.
+    validations:
+      required: true
+  - type: textarea
+    id: after
+    attributes:
+      label: The same room after your fixes
+      description: The same room from the same angle, after you moved, removed or added pieces by hand.
+      placeholder: Drag the screenshot here.
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: What you changed and why
+      description: >-
+        For example "moved the couches off the window wall, they hid the view" or "removed a plant, nobody could
+        reach the sink behind it".
+    validations:
+      required: true
+  - type: textarea
+    id: blueprint
+    attributes:
+      label: Blueprint
+      description: >-
+        Optional. A blueprint of the building lets us rebuild the room exactly and test the fix on it. Save one in
+        game, zip its .xml and .png from the Blueprints folder in the game's install folder, and drag the zip here.
+  - type: input
+    id: game_version
+    attributes:
+      label: Game version
+      description: Shown on the game's main menu, for example Beta 1.8.2.
+    validations:
+      required: true
