@@ -1,6 +1,6 @@
 [img]https://raw.githubusercontent.com/Tashus-s-Software-Inc-Mods/Manager-Suite/main/assets/banner-series.png[/img]
 
-Six automation mods for Software Inc. by Tashus, plus Manager UI, the shared window they all use. Each mod takes over one routine job and runs it by rules you set: contracts, deals, team leaders, research and patents, idle team hours, and spare cash.
+Seven automation mods for Software Inc. by Tashus, plus Manager UI, the shared window they all use. Each mod takes over one routine job and runs it by rules you set: contracts, deals, team leaders, research and patents, idle team hours, spare cash, and furnishing rooms.
 
 [h2]How it fits together[/h2]
 [list]
@@ -19,6 +19,7 @@ Six automation mods for Software Inc. by Tashus, plus Manager UI, the shared win
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3740631068][b]Research Manager[/b][/url]: starts each year's research on the specializations you choose, then files and registers the patents.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3767459405][b]Team Schedule Manager[/b][/url]: cuts an idle team's work day to a minimum so it costs less, and restores its hours when real work arrives.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739986889][b]Investment Manager[/b][/url]: puts spare cash into shares of strong companies, holds them, and sells when one turns sour or has gained enough.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3842988546][b]Furnish Manager[/b][/url]: keeps each room group stocked with fire safety, heating, cooling, lighting and boosts, and can lay out whole rooms.
 [/list]
 
 [h2]Managers by other authors[/h2]

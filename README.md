@@ -18,7 +18,7 @@ is about, so it reaches the right place.
 | **Research Manager** | Researches each year's new tech and files the patents on the teams you choose. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3740631068) |
 | **Investment Manager** | Invests spare cash in other companies' shares for dividends and growth. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3739986889) |
 | **Team Schedule Manager** | Cuts an idle team's work day and restores it when work arrives; can crunch a team near a deadline. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3767459405) |
-| **Furnish Manager** | Keeps each room group stocked with fire safety, heating, cooling, lighting and boosts, and can lay out whole rooms. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3842988546) (private until release) |
+| **Furnish Manager** | Keeps each room group stocked with fire safety, heating, cooling, lighting and boosts, and can lay out whole rooms. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3842988546) |
 
 ## Collections
 

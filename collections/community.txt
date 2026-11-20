@@ -16,6 +16,7 @@ Management mods for Software Inc. by more than one author. Every mod here adds a
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737490722][b]Contract Manager[/b][/url] by Tashus: accepts software contracts that match your rules and runs them from design to delivery.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737533696][b]Deal Manager[/b][/url] by Tashus: accepts and runs Design, Development, Support, Marketing, Print and Hosting deals that match your rules.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3753725169][b]Education Manager[/b][/url] by Yautja: sends team members to education based on the skills you configure for each team.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3842988546][b]Furnish Manager[/b][/url] by Tashus: keeps each room group stocked with fire safety, heating, cooling, lighting and boosts, and can lay out whole rooms.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3753107571][b]Hiring Manager[/b][/url] by Yautja: hires staff for each team toward hiring targets you define.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739986889][b]Investment Manager[/b][/url] by Tashus: invests spare cash in shares of strong companies and manages the positions.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737789185][b]Leader Manager[/b][/url] by Tashus: keeps chosen teams staffed with a leader built to your recipe and replaces leaders before they retire.
