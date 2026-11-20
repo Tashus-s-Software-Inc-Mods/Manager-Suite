@@ -21,6 +21,7 @@ Management mods for Software Inc. by more than one author. Every mod here adds a
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3739986889][b]Investment Manager[/b][/url] by Tashus: invests spare cash in shares of strong companies and manages the positions.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3737789185][b]Leader Manager[/b][/url] by Tashus: keeps chosen teams staffed with a leader built to your recipe and replaces leaders before they retire.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3740631068][b]Research Manager[/b][/url] by Tashus: researches the year's tech on the specializations you choose and files the patents.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3843070626][b]Service Staff Manager[/b][/url] by Tashus: hires and schedules your service staff so every shift in the hours you pick is covered.
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3767459405][b]Team Schedule Manager[/b][/url] by Tashus: shortens an idle team's work day and restores it when real work arrives.
 [/list]
 

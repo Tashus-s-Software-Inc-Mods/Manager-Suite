@@ -16,6 +16,7 @@ body:
         - Investment Manager
         - Team Schedule Manager
         - Furnish Manager
+        - Service Staff Manager
         - Not sure which mod
     validations:
       required: true

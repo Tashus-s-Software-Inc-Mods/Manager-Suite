@@ -19,6 +19,7 @@ is about, so it reaches the right place.
 | **Investment Manager** | Invests spare cash in other companies' shares for dividends and growth. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3739986889) |
 | **Team Schedule Manager** | Cuts an idle team's work day and restores it when work arrives; can crunch a team near a deadline. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3767459405) |
 | **Furnish Manager** | Keeps each room group stocked with fire safety, heating, cooling, lighting and boosts, and can lay out whole rooms. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3842988546) |
+| **Service Staff Manager** | Hires and schedules maintenance, cleaning, IT, reception, kitchen, courier and security staff for the hours you pick. | [Subscribe](https://steamcommunity.com/sharedfiles/filedetails/?id=3843070626) |
 
 ## Collections
 

@@ -3,9 +3,9 @@
 Copyright (c) 2026 Tashus. All rights reserved.
 
 This covers the Manager Series by Tashus: Manager UI, Contract Manager, Deal Manager, Furnish Manager,
-Investment Manager, Leader Manager, Research Manager and Team Schedule Manager, including their source code
-as shipped on the Steam Workshop, and the documents in this repository. The one exception is
-[INTEGRATION.md](INTEGRATION.md), covered under "Building on Manager UI" below.
+Investment Manager, Leader Manager, Research Manager, Service Staff Manager and Team Schedule Manager,
+including their source code as shipped on the Steam Workshop, and the documents in this repository. The one
+exception is [INTEGRATION.md](INTEGRATION.md), covered under "Building on Manager UI" below.
 
 ## What you may do
 
